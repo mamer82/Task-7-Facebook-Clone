@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{display: flex;
+justify-content: space-between;
+background-color: rgb(255, 255, 255);
+height: 55px;
+width: 100%;
+box-shadow: 0px 1px 3px rgb(230, 224, 224);
+padding: 8px 13px 0px 13px;
+position: sticky;
+position: -webkit-sticky;
+top: 0px;
+z-index: 3;
+
+}
+
+.nav-left{display: flex;
+}
+.fa-facebook{color: blue;
+    font-size: 40px;
+
+}
+.search .fa-search{position: absolute;
+    color: #606770;
+    font-size: 15px;
+    top: 13px;left: 12px;
+}
+.search{position: relative
+    ;}
+
+.search input{border: none;margin-left: 5px;background-color: #f5f0f0;
+    padding: 13px 16px 9px 36px;
+    font-size: 15px;
+    border-radius: 50px;
+}
+.search input:focus{outline: none;}
+
+.nav-middle  a {;
+font-size: 25px;
+text-decoration: none;
+
+padding: 10px 20px;
+color: #65676b ;border-radius: 9px;
+}
+
+.nav-middle  a:hover{background-color: #f5f0f0;}
+.nav-middle .active{color: blue;border-bottom: 2px solid blue;}
+.nav-middle .active:hover{background-color: white;}
+/* nav right */
+.nav-right{display: flex;align-items: center;
+padding-bottom: 8px;}
+
+.nav-right .profile {display: flex;
+align-items: center;margin: 10px;padding: 2px 10px 2px 2px;
+border-radius: 8px ;}
+
+.profile img{border-radius: 50px;
+width: 40px;
+height: 40px;}
+
+.profile p{color: black;
+font-size: 15px;
+font-weight: bold;
+margin-left: 5px;}
+
+.nav-right a{
+    text-decoration: none;
+    color: #050505;
+    background-color: #e4e6eb;font-size: 18px;
+    margin: 5px;width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;justify-content: center;
+}
+
+
+/* sec_all */
+.sec_all{display: flex;justify-content: space-between;}
+
+/* Left_side */
+.left_side {background-color: #f0f2f5;width: 350px;
+overflow: hidden;height: 100vh;
+position: static;position: -webkit-sticky;
+left: 0;
+top: 56px;
+}
+
+
+.left_side:hover{overflow: scroll;}
+.left_side li{display: flex;
+align-items: center;
+border-radius: 30px;
+padding: 10px 10px 10px;}
+.left_side img{width: 50px;
+height: 50px;}
+.left_side .a1{border-radius: 50px; margin-left: 10px;}
+.left_side p{margin-left: 15px;}
+
+/*middle side  */
+
+/* Right side */
+.right_side{background-color: #f0f2f5;
+width: 300px;}
+.right_side p{margin-top: 12px;
+font-size: 20px;
+color: #65676b;}
+
+.Sponsored div{display: flex;
+    margin-top: 20px;
+align-items: center; 
+color: #050505;   
+border: radius 8px;
+padding: 05px 50px 05px 5px;
+}
+.Sponsored img{width: 120px;
+height: 70px;
+border-radius: 8px;}
+
+.Sponsored h3{margin-left: 10px;
+font-size: 15px;}
+
+.Contacts{display: flex;align-items: flex-end;justify-content: space-between;}
+.Contacts p{color: #65676b;font-size: 16px;margin-top: 8px;}
+.Contacts i{color: #65676b;margin: 0px 5px;}
+
+.right_side {background-color: #f0f2f5;width: 350px;
+    overflow: hidden;height: 100vh;
+position: sticky;
+position: -webkit-sticky;
+right: 0;
+top: 56px;
+padding: 20px;}
+
+    .right_side:hover{overflow: scroll;}
+
+    .right_side li{display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px 10px 10px;}
+    .right_side img{width: 50px;
+    height: 50px;}
+    .right_side .c1{border-radius: 50px; margin-left: 10px;}
+    .right_side p{margin-left: 15px;}
+    
+
+
+    /* middle_side */
+
+.conatiner{display: flex;justify-content: space-between;
+margin-top: 20px;}
+
+.firstleft{background-color: #fff;overflow: hidden;
+    width: 90%;%;height: 250px;border-radius: 10px;box-shadow: 0 10px 5px 5px #ddd;position: relative;
+}
+
+.firstleft .icons{color: white;background-color: #1877f2;border-radius: 50%;font-size: 20px;
+position: absolute;left: 33%;top: 65%;;padding: 8px;object-fit: cover;border: solid 4px white;}
+
+.firstleft .p1{font-size: 20px; color: #010913;
+text-align: center;
+margin-top: 25px;}
+
+.firstleft .firstimg{width: 100%;H: 160px;border-radius: 10px;
+position: relative;transition: all ease-in-out 1s;}
+
+.second2{position: relative;}
+
+.second2 .small{position: absolute;
+top: 11px;left: 18px;width: 60px;height: 60px;border-radius: 50%;z-index: 2;
+border: solid 3px #1877f2;}
+
+.second2 .second{height: 100%;transform: scale(1.1);}
+
+.second2 p{color: white;
+position: absolute;bottom: 10px;
+left: 15px;text-align: center;}
+
+/* Min_A */
+
+}
+
+
+
+
+
+
+

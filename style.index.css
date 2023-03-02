@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.facebookclon {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #edf0f5;
+    padding: 0px 150px;
+    
+  
+}
+
+.face1 {
+    margin-top: -0px;
+    text-align: left;
+    width: 500px;
+    padding: 0px 0 50px;
+}
+
+.img5 {
+    height: 106px;
+    width: -28px
+}
+
+.face1 h2 {
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    font-weight: 200;
+}
+
+.form {
+    padding: 300px 60px 200px;
+    
+}
+
+.form1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 28px;
+    width: 400px;
+    border-radius: 08px;
+    box-shadow: 10px 10px 4px rgb(80, 177, 109)
+    ;
+    flex-direction: column;
+    background-color: rgb(236, 230, 223);
+}
+
+.cl {
+    border-radius: 6px;
+    margin: 08px 0px;
+    line-height: 20px;
+    padding: 12px 15px;
+    border: 02px solid rgb(63, 7, 214);
+    width: 320px;
+    font-size: 18px;
+}
+
+.bo1 {
+    border-radius: 15px;
+    margin: 08px 0px;
+    line-height: 20px;
+    padding: 12px 15px;
+    border: 02px solid rgb(229, 227, 235);
+    width: 320px;
+    font-size: 23px;
+    color: bisque;
+    background-color: rgb(35, 35, 228);
+    cursor: pointer;
+}
+
+.forg {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bo2 {
+    border-radius: 15px;
+    margin: 08px 0px;
+    line-height: 20px;
+    padding: 12px 15px;
+    border: 02px solid rgb(229, 227, 235);
+    width: 220px;
+    font-size: 16px;
+    color: bisque;
+    font-weight: bold;
+    background-color: rgb(83, 233, 103);
+}
+.hrline{
+    width: 300px;
+    padding: 2px 2px;
+    
+}
+
+.bo2:focus {
+    background: rgb(158, 158, 151);
+    color: blue;
+    border-color: blueviolet;
+    cursor: pointer
+}
+
+.cl:focus {
+    background: rgb(158, 158, 151);
+    color: blue;
+    border-color: blueviolet;
+    cursor: pointer
+}
+
+.form2 {
+    display: flex;margin-left: 50px;
+}
+
+.fort {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.creat {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
